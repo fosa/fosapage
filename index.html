@@ -1,153 +1,229 @@
-<html>
-	<meta charset="utf-8"> 
-	<head>
-	</head>
-	<body>
-	<h2>Formelsammlung</h2>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>FOSA</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+     
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+<body>
+	<div class="header-container">
+	<header class="wrapper clearfix">
+		<h1 class="title">FOSA</h1>
+		<nav>
+		<ul>
+			<li><a href="#formelsammlungen">FOSAs</a></li>
+			<li><a href="#zulassungen">Zulassungen</a></li>
+			<li><a href="#helfe">Helfe mit!</a></li>
+			<li><a href="#kontakt">Kontakt</a></li>
+		</ul>
+		</nav>
+	</header>
+	</div>
+
+	<div class="main-container">
+	<div class="main wrapper clearfix">
+
+	<article>
+	<header>
+	<h1>Willkommen</h1>
+		<p>Herzlich willkommen auf der Homepage des FOSA-Teams.
+		Hier findest du die aktuellen PDFs unserer 
+		Formelsammlungen und die Links zu den Sourcen.</p>
+			<h2>Was ist FOSA</h2>
+				<p>FOSA ist ein Kürzel für Formelsammlung und steht sowohl 
+				für ein Projekt als auch eine Gruppe welche sich über 
+				Github organisiert. Diese Gruppe besteht aus Studenten
+				der Hochschule Luzern welche Formelsammlungen erstellen.</p>
+			<h2>Was ist daran so besonders?</h2>
+				<p>Es gibt doch bereits viele Bücher und Formelsammlungen
+				zu jedem nur denkbaren Fachgebiet? Ja, aber...
+				<br>
+				... diese sind meist entweder völlig überladen, nicht an Dein 
+				Modul angepasst oder einfach nicht verständlich für Studenten. 
+				Zudem sind diese nur in gedruckter Form vorhanden, d.h. jede 
+				Änderung nahezu unmöglich ohne das Buch vollzukritzeln 
+				zwischen den Zeilen.</p>
+
+				<p>Was wir machen, ist eine freie Sammlung von Formelbüchern,
+				welche exakt auf die Module der Hochschule Luzern angepasst
+				sind. Insbesondere sind diese frei verfügbar als mit Git 
+				versionierter LaTeX Source Code bei Github welcher unter der 
+				GPLv2 lizensiert ist. Das bedeutet, jeder kann unsere Arbeit frei 
+				verwenden, erweitern und verpflichtet sich dabei, seine 
+				Änderungen zur Verfügung zu stellen (Copyleft).</p>
+
+	</header>
+                        
+	<hr id="formelsammlungen">
+	<h2>Formelsammlungen</h2>
 
 	<table>
 		<thead>
 			<th>Name</th>
-			<th>Letzte &Auml;nderung</th>
+			<th>Update</th>
 			<th>Link</th>
 			<th>Quelle</th>
 		</thead>
-	<tbody>
-			<tr>
-			<td>Mathematik Grundlagen</td>
-			<td>10.11.2013 13:41:50</td>
-			<td><a href="artifacts/fosa_math/fosa_main.pdf">artifacts/fosa_math/fosa_main.pdf</a></td>
-			<td><a href="https://github.com/fosa/fosamath">https://github.com/fosa/fosamath</a></td>
-		</tr>
-			<tr>
-			<td>Mathematik Grundlagen (TI-89)</td>
-			<td>10.11.2013 13:41:52</td>
-			<td><a href="artifacts/fosa_math/fosa_main_ti89.pdf">artifacts/fosa_math/fosa_main_ti89.pdf</a></td>
-			<td><a href="https://github.com/fosa/fosamath">https://github.com/fosa/fosamath</a></td>
-		</tr>
-			<tr>
-			<td>Mathematik Grundlagen (TI-Nspire)</td>
-			<td>10.11.2013 13:41:57</td>
-			<td><a href="artifacts/fosa_math/fosa_main_tinspire.pdf">artifacts/fosa_math/fosa_main_tinspire.pdf</a></td>
-			<td><a href="https://github.com/fosa/fosamath">https://github.com/fosa/fosamath</a></td>
-		</tr>
-			<tr>
-			<td>Mathematik Grundlagen (TI-89 und TI-Nspire)</td>
-			<td>10.11.2013 13:41:54</td>
-			<td><a href="artifacts/fosa_math/fosa_main_tiboth.pdf">artifacts/fosa_math/fosa_main_tiboth.pdf</a></td>
-			<td><a href="https://github.com/fosa/fosamath">https://github.com/fosa/fosamath</a></td>
-		</tr>
-			<tr>
-			<td>Elektrotechnik 1</td>
-			<td>15.12.2013 09:36:54</td>
-			<td><a href="artifacts/fosa_et/fosaet_main.pdf">artifacts/fosa_et/fosaet_main.pdf</a></td>
-			<td><a href="https://github.com/fosa/fosaet">https://github.com/fosa/fosaet</a></td>
-		</tr>
-			<tr>
-			<td>Physik</td>
-			<td>15.12.2013 00:11:40</td>
-			<td><a href="artifacts/fosa_phy/fosaphy_main.pdf">artifacts/fosa_phy/fosaphy_main.pdf</a></td>
-			<td><a href="https://github.com/fosa/fosaphy">https://github.com/fosa/fosaphy</a></td>
-		</tr>
-			<tr>
-			<td>Stochastik Formelsammlung</td>
-			<td>19.09.2013 19:51:07</td>
-			<td><a href="artifacts/fosastoc/fosastoc.pdf">artifacts/fosastoc/fosastoc.pdf</a></td>
-			<td><a href="https://github.com/fosa/fosastoc">https://github.com/fosa/fosastoc</a></td>
-		</tr>
-			<tr>
-			<td>Technische Mechanik</td>
-			<td>19.09.2013 20:26:04</td>
-			<td><a href="artifacts/fosa_tm/fosa_main.pdf">artifacts/fosa_tm/fosa_main.pdf</a></td>
-			<td><a href="https://github.com/fosa/fosatm">https://github.com/fosa/fosatm</a></td>
-		</tr>
-			<tr>
-			<td>10 Seiten für die Prüfung des Moduls MATH</td>
-			<td>02.02.2013 13:14:15</td>
-			<td><a href="artifacts/spick_math/spick_main.pdf">artifacts/spick_math/spick_main.pdf</a></td>
-			<td><a href="https://github.com/daniw/spickmath">https://github.com/daniw/spickmath</a></td>
-		</tr>
-			<tr>
-			<td>Präsentation zu kollaborativem Texten mit LaTeX, Git und Github</td>
-			<td>02.02.2013 13:14:26</td>
-			<td><a href="artifacts/colwork/colwork_main.pdf">artifacts/colwork/colwork_main.pdf</a></td>
-			<td><a href="https://github.com/ninux/colwork">https://github.com/ninux/colwork</a></td>
-		</tr>
+		<tbody>
+		<tr>
+			<td>Mathematik</td>
+				<td>10.11.2013 13:41:50</td>
+				<td><a href="artifacts/fosa_math/fosa_main.pdf">Mathematik</a></td>
+				<td><a href="https://github.com/fosa/fosamath">fosamath</a></td>
+			</tr>
+				<tr>
+				<td>Mathematik (TI-89)</td>
+				<td>10.11.2013 13:41:52</td>
+				<td><a href="artifacts/fosa_math/fosa_main_ti89.pdf">Mathematik (TI-89)</a></td>
+				<td><a href="https://github.com/fosa/fosamath">fosamath</a></td>
+			</tr>
+				<tr>
+				<td>Mathematik (TI-Nspire)</td>
+				<td>10.11.2013 13:41:57</td>
+				<td><a href="artifacts/fosa_math/fosa_main_tinspire.pdf">Mathematik (TI-Nspire)</a></td>
+				<td><a href="https://github.com/fosa/fosamath">fosamath</a></td>
+			</tr>
+				<tr>
+				<td>Mathematik (TI-89 & TI-Nspire)</td>
+				<td>10.11.2013 13:41:54</td>
+				<td><a href="artifacts/fosa_math/fosa_main_tiboth.pdf">Mathematik (TI-89 & TI-Nspire)</a></td>
+				<td><a href="https://github.com/fosa/fosamath">fosamath</a></td>
+			</tr>
+				<tr>
+				<td>Elektrotechnik</td>
+				<td>15.12.2013 09:36:54</td>
+				<td><a href="artifacts/fosa_et/fosaet_main.pdf">Elektrotechnik</a></td>
+				<td><a href="https://github.com/fosa/fosaet">fosaet</a></td>
+			</tr>
+				<tr>
+				<td>Physik</td>
+				<td>15.12.2013 00:11:40</td>
+				<td><a href="artifacts/fosa_phy/fosaphy_main.pdf">Physik</a></td>
+				<td><a href="https://github.com/fosa/fosaphy">fosaphy</a></td>
+			</tr>
+				<tr>
+				<td>Stochastik</td>
+				<td>19.09.2013 19:51:07</td>
+				<td><a href="artifacts/fosastoc/fosastoc.pdf">Stochastik</a></td>
+				<td><a href="https://github.com/fosa/fosastoc">fosastoc</a></td>
+			</tr>
+				<tr>
+				<td>Technische Mechanik</td>
+				<td>19.09.2013 20:26:04</td>
+				<td><a href="artifacts/fosa_tm/fosa_main.pdf">Technische Mechanik</a></td>
+				<td><a href="https://github.com/fosa/fosatm">fosatm</a></td>
+			</tr>
+				<tr>
+				<td>10 Seiten für die Prüfung des Moduls MATH</td>
+				<td>02.02.2013 13:14:15</td>
+				<td><a href="artifacts/spick_math/spick_main.pdf">Notizen Mathematik</a></td>
+				<td><a href="https://github.com/daniw/spickmath">spickmath</a></td>
+			</tr>
+				<tr>
+				<td>Präsentation zu kollaborativem Texten mit LaTeX, Git und Github</td>
+				<td>02.02.2013 13:14:26</td>
+				<td><a href="artifacts/colwork/colwork_main.pdf">Colwork</a></td>
+				<td><a href="https://github.com/ninux/colwork">colwork</a></td>
+			</tr>
 		</tbody>
 	</table>
-	<p>Alle Buildresultate: <a href="artifacts/">/artifacts</a></p>
-	<hr>
-	<h1>NEWS</h2>
-	<h2>Formelsammlungen als Softcover erhältlich</h2>
-		<p>
-		Formelsammlungen werden ab diesem Winter von externen Herstellern gebunden.
-		Interessierte Studenten können die Pre-Release Exemplare begutachten und
-		Vorbestellungen tätigen per Mail beim
-			<a href="mailto:info.fosa@gmail.com">FOSA-Team</a>.
-		</p>
-	<h2>Aktuelle Arbeiten</h2>
-		<p>
-		Die Erweiterung der Formelsammlungen ist im Gange. Momentan wird vor 
-		allem die Formelsammlung Physik und Elektrotechnik erweitert.
-		</p>
-	<h2>Zulassungen und Empfehlungen</h2>
-		<p>
-		Jede Formelsammlung hat einen individuellen Status an der HSLU und muss
-		jedes Semester neu geprüft werden auf die MEP-Zulassung.
-		Im folgenden eine Liste betreffend den Zulassung an MEPs.
-		<br>
-		<br>
-		
-			<table border="1">
-				<tr>
-					<td><b>Formelsammlung</b></td>
-					<td><b>Zugelassen für MEP von</b></td>
-					<td><b>Stand</b></td>
-				</tr>
+
+
+                        
+	<hr id="zulassungen">
+	<h1>Zulassungen</h1>
+		<p>Jede Formelsammlung hat einen individuellen Status an der HSLU und muss
+		jedes Semester neu geprüft werden auf deren Zulassung zur MEP.</p>
+	
+		<table border="0">
+			<thead>
+				<th>Formelsammlung</th>
+				<th>Zugelassen für</th>
+			</thead>
+			<tbody>
 				<tr>
 					<td>Mathematik</td>
 					<td>MA+PHY1, MA+PHY2</td>
-					<td>Hat sich bewährt bei MATH und MA+PHY1</td>
-				</tr>
-				<tr>
-					<td>Physik</td>
-					<td>MA+PHY1, MA+PHY2</td>
-					<td>Wird zum ersten mal verwendet an der MEP</td>
 				</tr>
 				<tr>
 					<td>Elektrotechnik</td>
 					<td>ET1, ET2, ET+ELO</td>
-					<td>Hat sich bewährt bei ET1 und ET2</td>
+				</tr>
+				<tr>
+					<td>Physik</td>
+					<td>MA+PHY1, MA+PHY2</td>
 				</tr>
 				<tr>
 					<td>Stochastik</td>
 					<td>STOC</td>
-					<td>Hat sich bewährt bei STOC</td>
 				</tr>
 				<tr>
 					<td>Technische Mechanik</td>
 					<td>TM</td>
-					<td>Nicht komplett</td>
 				</tr>
-			</table> 
-		</p>
-	<hr>
- 	<h2>Du kannst uns helfen!</h2>
-		<p>
-		Bitte melde Fehler und Verbesserungsvorschläge. 
-		Auf den folgenden Links findest du die aktuellen Issues:
+			</tbody>
+		</table>	
+
+	<hr id="helfe">		
+	<h1>Helfe mit!</h1>
+		<p>Du kannst dem FOSA-Team auf verschiedene Weise helfen die Formelsammlungen
+		zu verbessern. Am einfachsten geht dies über das Melden von Fehlern und
+		Wünschen per Issue. Hierfür kannst Du einfach den Links folgen und ein 
+		bestehendesneues Issue erweitern oder ein neues erstellen.
 		<UL>
 			<LI> <a href="https://github.com/fosa/fosamath/issues">Mathematik</a>
 			<LI> <a href="https://github.com/fosa/fosaet/issues">Elektrotechnik</a>
 			<LI> <a href="https://github.com/fosa/fosaphy/issues">Physik</a>
 			<LI> <a href="https://github.com/fosa/fosastoc/issues">Stochastik</a>
 		</UL>
-		Ist dein Anliegen, Fehler oder Vorschlag da noch nicht erfasst,
-		kannst du selber einen erstellen. Falls du nicht weisst wie das 
-		geht, kannst du uns jeder Zeit anfragen per Mail.
-		<UL>
-			<LI> <a href="mailto:info.fosa@gmail.com">FOSA-Team</a>
-	</UL>
-	<hr>
-	</body>
+		Falls du gerne mehr machen möchtest als nur Issues erstellen, dann kannst du
+		dich direkt per Mail an das 
+			<a href="mailto:info.fosa@gmail.com">FOSA-Team</a>
+		wenden. Wir sind für jede Art von Hilfe dankbar!
+		
+	<hr id="kontakt">	
+	<h1>Kontakt</h1>
+		<p>Hast Du noch Fragen oder möchtest Du uns etwas mitteilen? 
+		Kein Problem! Kontaktiere das FOSA-Team einfach per E-Mail.</p>
+		<blockquote>
+			<b>FOSA-Team</b>
+			<p>
+			Daniel Winz<br>
+			Ervin Mazlagic<br>
+			Adrian Imboden<br>
+			<a href="mailto:info.fosa@gmail.com">info.fosa@gmail.com</a> <br>
+			</p>
+		</blockquote>
+	</article>
+
+	<aside>
+		<h1>News</h1>
+ 			<h2>Formelsammlungen als Softcover erhältlich</h2>
+				<p>Neu werden Formelsammlunge von Externen professionell 
+				hergestellt als Softcover. Interessierte können geren die 
+				Probe-Exemplare begutachten und allenfalls Vorbestellungen
+				tätigen. Hierfür einfach ein Mail an das 
+					<a href="mailto:info.fosa@gmail.com">FOSA-Team</a>
+				senden.</p>
+	</aside>
+
+		</div> <!-- #main -->
+		</div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+            </footer>
+        </div>
+    </body>
 </html>
