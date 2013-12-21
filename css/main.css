@@ -21,7 +21,7 @@ body {
 }
 
 ::selection {
-    background: #B7C8DA;
+    background: #B7DAC8;
     text-shadow: none;
 }
 
@@ -120,20 +120,17 @@ h1 {
 
    
 .header-container {
-    /*border-bottom: 10px solid #1C344D;*/
     border-bottom: 10px solid #1C4D34;
 }
 
 .footer-container,
 .main aside {
-    /*border-top: 10px solid #1C344D;*/
     border-top: 10px solid #1C4D34;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    /*background: #496785;*/
     background: #498567;
 }
 
@@ -143,7 +140,6 @@ h1 {
 
 nav a {
     color: white;
-    /*background: #1C344D;*/
     background: #1C4D34;
 }
 
@@ -160,7 +156,6 @@ aside a {
 }
 
 a {
-    /*color: #2D445D;*/
     color: #2D5D44;
 }
 
