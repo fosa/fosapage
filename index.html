@@ -10,10 +10,10 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
      
-	<link rel="stylesheet" href="css/normalize.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="{{rootpath}}/css/normalize.min.css">
+	<link rel="stylesheet" href="{{rootpath}}/css/main.css">
 
-	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="{{rootpath}}/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 
 <body>
@@ -79,38 +79,16 @@
 			<th>Update</th>
 		</thead>
 		<tbody>
+		{% for formelsammlung in formelsammlungen %}
 			<tr>
-				<td><a href="http://fosa.adinox.ch/artifacts/fosa_math/fosa_main.pdf">Mathematik</a></td>
-				<td><?php echo date("d.m.Y H:i:s", filemtime(http://fosa.adinox.ch/artifacts/fosa_math/fosa_main.pdf)) ?></td>
+				<td><a href="{{formelsammlung.fileurl}}">{{formelsammlung.name}}</a></td>
+				<td>{{formelsammlung.lastChange|date("d.m.Y H:i:s")}}</td>
 			</tr>
+		{% else %}
 			<tr>
-				<td><a href="http://fosa.adinox.ch/artifacts/fosa_math/fosa_main_ti89.pdf">Mathematik (TI-89)</a></td>
-				<td>10.11.2013 13:41:52</td>
+				<td colspan="2">Leider wurde keine Formelsammlung gefunden</td>
 			</tr>
-			<tr>
-				<td><a href="http://fosa.adinox.ch/artifacts/fosa_math/fosa_main_tinspire.pdf">Mathematik (TI-Nspire)</a></td>
-				<td>10.11.2013 13:41:57</td>
-			</tr>
-			<tr>
-				<td><a href="http://fosa.adinox.ch/artifacts/fosa_math/fosa_main_tiboth.pdf">Mathematik (TI-89 & TI-Nspire)</a></td>
-				<td>10.11.2013 13:41:54</td>
-			</tr>
-			<tr>
-				<td><a href="http://fosa.adinox.ch/artifacts/fosa_et/fosaet_main.pdf">Elektrotechnik</a></td>
-				<td>15.12.2013 09:36:54</td>
-			</tr>
-			<tr>
-				<td><a href="http://fosa.adinox.ch/artifacts/fosa_phy/fosaphy_main.pdf">Physik</a></td>
-				<td>15.12.2013 00:11:40</td>
-			</tr>
-			<tr>
-				<td><a href="http://fosa.adinox.ch/artifacts/fosastoc/fosastoc.pdf">Stochastik</a></td>
-				<td>19.09.2013 19:51:07</td>
-			</tr>
-			<tr>
-				<td><a href="http://fosa.adinox.ch/artifacts/fosa_tm/fosa_main.pdf">Technische Mechanik</a></td>
-				<td>19.09.2013 20:26:04</td>
-			</tr>
+		{% endfor %}
 		</tbody>
 	</table>
 
